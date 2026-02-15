@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS superstore(
+    row_id INT,
+    order_id VARCHAR(50),
+    order_date VARCHAR(50),
+    ship_date VARCHAR(50),
+    ship_mode VARCHAR(50),
+    customer_id VARCHAR(50),
+    customer_name VARCHAR(100),
+    segment VARCHAR(50),
+    country VARCHAR(50),
+    city VARCHAR(50),
+    state VARCHAR(50),
+    postal_code INT,
+    region VARCHAR(50),
+    product_id VARCHAR(50),
+    category VARCHAR(50),
+    sub_category VARCHAR(50),
+    product_name VARCHAR(100),
+    sales VARCHAR(50),
+    quantity INT,
+    discount FLOAT,
+    profit VARCHAR(50)
+);
